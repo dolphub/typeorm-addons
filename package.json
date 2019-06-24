@@ -1,0 +1,18 @@
+{
+  "name": "typeorm-addons",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dolphub/typeorm-addons.git",
+  "author": "Randy Mikkelsaar <randy.mikkelsaar@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "lerna run --parallel lint"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "extensions",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "tslint": "^5.18.0",
+    "typeorm": "^0.2.18"
+  },
+  "scripts": {
+    "lint": "tslint -p tsconfig.json -c tslint.json"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.134",
+    "typescript": "^3.5.2"
+  }
+}
