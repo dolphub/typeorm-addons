@@ -7,7 +7,7 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "tslint": "^5.18.0",
-    "typeorm": "^0.2.18"
+    "typeorm": "^0.2.25"
   },
   "scripts": {
     "lint": "tslint -p tsconfig.json -c tslint.json"
